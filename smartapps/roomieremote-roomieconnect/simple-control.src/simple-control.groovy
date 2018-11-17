@@ -770,5 +770,3 @@ def List getRealHubFirmwareVersions()
 {
     return location.hubs*.firmwareVersionString.findAll { it }
 }
-
-
